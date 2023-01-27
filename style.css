@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #555;
+}
+.teclado {
+    display: flex;
+}
+
+.oitava { 
+    
+    position: relative;
+    display: flex;
+}
+
+.branca {
+    background-color: white;
+    width: 50px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+
+.preta {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 26px;
+    height: 160px;
+}
+
+[Csus] {
+    left: 37px;
+}
+
+[Rsus] {
+    left: 87px;
+}
+
+[Fsus] {
+    left: 187px;
+}
+
+[Gsus] {
+    left: 237px;
+}
+
+[Asus] {
+    left: 287px;
+}
+
+
