@@ -2,14 +2,19 @@ const teclas = document.querySelectorAll(".oitava > div")
 
 teclas.forEach(function(tecla) {
     tecla.onmousedown = function(){
-        console.log("mousedown")
+        console.log('pressionei')
+        
     }
 
     tecla.onmouseup = function(){
-        console.log("mouseup")
+        console.log("soltei")
     }
+    
     tecla.onmouseleave = function(){
-        window.alert("mousedleave")
+       console.log('sai')
     }
 }) 
 
+// function cliquei(){
+//     window.alert("cliquei")
+// }
